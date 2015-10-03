@@ -47,7 +47,7 @@ def start():
 
 def main():
 		start()
-		os.system("exit")
+
 		while (True): 
 			print_table()
 

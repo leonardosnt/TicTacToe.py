@@ -60,7 +60,7 @@ def main():
 					print ("\nVez do jogador " + str(player + 1) + " [" + PLAYER_CHAR[player] + "]")
 					pos = int(input("Digite uma posicao de 1 a 9: "))
 
-					if (pos > 9 or pos < 1 or  table[pos - 1	] != ' '):
+					if (pos > 9 or pos < 1 or  table[pos - 1] != ' '):
 						raise
 					break
 				except Exception as e:
